@@ -16,7 +16,7 @@ class LocalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.title = "Add Names"
+        self.navigationController?.title = NSLocalizedString("LocalVC.NavTitle", comment: "this is the navigation bar title")
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,7 +27,7 @@ class LocalViewController: UIViewController {
     // MARK: - Action Buttons
     
     @IBAction func discoverButtonTapped(sender: AnyObject) {
-        presentAlertController("Look!", message: "That buttons just presents an alert")
+        presentAlertController(NSLocalizedString("LocalVC.AlertTitle", comment: "Look!"), message: NSLocalizedString("LocalVC.AlertBody", comment: "The button just presents an alert"))
     }
     
     // MARK: - Alert Controller
