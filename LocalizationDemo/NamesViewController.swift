@@ -27,7 +27,7 @@ class LocalViewController: UIViewController {
     // MARK: - Action Buttons
     
     @IBAction func discoverButtonTapped(sender: AnyObject) {
-        presentAlertController("Look!", message: "That buttons just presents an alert")
+        presentAlertController(NSLocalizedString("LocalVC.AlertTitle", comment: "Look!"), message: NSLocalizedString("LocalVC.AlertBody", comment: "That button just presents an alert"))
     }
     
     // MARK: - Alert Controller

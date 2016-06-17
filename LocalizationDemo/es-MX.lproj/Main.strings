@@ -3,7 +3,7 @@
 "KLm-UZ-s5V.placeholder" = "Contraseña";
 
 /* Class = "UILabel"; text = "What does this button do?"; ObjectID = "VxJ-4H-92C"; */
-"VxJ-4H-92C.text" = "¿Que hace este buton?";
+"VxJ-4H-92C.text" = "¿Que hace este butón?";
 
 /* Class = "UITextField"; placeholder = "Email"; ObjectID = "Xzs-CW-jN4"; */
 "Xzs-CW-jN4.placeholder" = "Correo Electrónico"";
